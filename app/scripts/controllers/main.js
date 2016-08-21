@@ -18,7 +18,7 @@ angular.module('adminApp')
       var http = $http(
         {
           method: 'get',
-          url: 'source/search.php?search='+$scope.data
+          url: 'source/search.php?search='+$scope.data+'&type='+$scope.select
         }
       ).then(
         function successCallback(response) {
