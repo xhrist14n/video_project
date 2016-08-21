@@ -19,7 +19,10 @@
     "angular-touch": "^1.5.8",
     "angular-route": "^1.5.8",
     "angular-mocks": "^1.5.8",
-    "angular-scenario": "^1.5.8"
+    "angular-scenario": "^1.5.8",
+    "jquery-ui": "jqueryui#~1.12.0",
+    "datatables.net": "~1.10.12",
+    "datatables.net-bs": "~1.10.12"
   },
   "overrides": {
     "bootstrap": {
@@ -33,6 +36,13 @@
     "font-awesome": {
       "main": [
         "css/font-awesome.css"
+      ]
+    },
+    "jquery-ui": {
+      "main": [
+        "themes/smoothness/theme.css",
+        "themes/smoothness/jquery-ui.css",
+        "jquery-ui.js"
       ]
     }
   },
