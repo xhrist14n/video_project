@@ -1,0 +1,12 @@
+{
+    "name": "guest/a8dom-heroku",
+    "authors": [
+        {
+            "name": "alguien",
+            "email": "alguien@gmail.com"
+        }
+    ],
+    "require": {
+        ""
+    }
+}
